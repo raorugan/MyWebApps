@@ -14,11 +14,11 @@
             <h1 class="text-2xl font-bold mb-4">Sign Up</h1>
             <form action="/signup" method="POST">
                 <div class="mb-4">
-                    <label for=" Enter name" class="block text-gray-700 text-sm font-bold mb-2">Name</label>
+                    <label for=" Enter user name" class="block text-gray-700 text-sm font-bold mb-2">Name</label>
                     <input type="text" id="name" name="name" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500" required>
                 </div>
                 <div class="mb-4">
-                    <label for="Enter email" class="block text-gray-700 text-sm font-bold mb-2">Email</label>
+                    <label for="Enter user email" class="block text-gray-700 text-sm font-bold mb-2">Email</label>
                    
                     <!--
                         This code represents an input field for email address in a signup form.
@@ -33,7 +33,7 @@
                     <input type="email" id="email" name="email" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500" required pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$">
                 </div>
                 <div class="mb-4">
-                    <label for="Enter password" class="block text-gray-700 text-sm font-bold mb-2">Password</label>
+                    <label for="Enter user password" class="block text-gray-700 text-sm font-bold mb-2">Password</label>
                     <input type="password" id="password" name="password" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" title="Password must be at least 8 characters long and contain at least one letter and one number">
                 </div>
                 <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Sign Up</button>
